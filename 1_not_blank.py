@@ -15,8 +15,4 @@ def ticket_holder_name():
             print('Name:' + name)
             break
 
-
-# this gets the ticket holders age #
-
-def ticket_holder_age():
-    pass
+ticket_holder_name()
