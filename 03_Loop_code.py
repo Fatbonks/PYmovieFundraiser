@@ -1,7 +1,7 @@
 ticket_solded = 0
 tickets = 5
 
-
+    
 def loop_ticket(tickets, ticket_solded):
     while True:
         print("you have {} tickets left".format(tickets))
