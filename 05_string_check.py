@@ -4,4 +4,5 @@ def string_check():
         if ans == "maybe":
             print("Please enter “Yes” or “No”")
 
+
 string_check()
