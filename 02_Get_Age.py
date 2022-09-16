@@ -5,11 +5,15 @@ def ticket_holder_age():
         try:
             ans = int(input("what is your age\n>"))
 
-            if ans < 12 or ans > 120:
-                print("your age is invalid you have either entered a age to young or your age is over 120")
+            if ans < 12:
+                print("You are too young to watch this movie")
 
+            elif ans >= 130:
+
+                print("Your age is out of bounds are you sure that is your age?")
             else:
                 print("Your age is :", ans)
+                break
 
         except ValueError:
             print("please input a whole number")

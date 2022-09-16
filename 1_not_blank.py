@@ -9,7 +9,7 @@ def ticket_holder_name():
             print('Please input a name')
         # checks if what the user inputted was a number
         elif name.isdigit():
-            print("please use a number")
+            print("please input a valid name")
         # if both the other if statements are false then this is will run
         else:
             print('Name:' + name)
